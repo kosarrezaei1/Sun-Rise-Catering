@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SunRise Catering | Booking</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+    <body>
+
+        <header>
+            <div class="top-header">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="SunRise logo" class="logo">
+                </a>
+
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+            </div>
+
+            <nav id="navMenu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About US</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="booking.html" class="book-btn">Booking</a>
+            <a href="location.html">Location</a>
+            </nav>
+        </header>
+
+
+        <section class="page-banner">
+            <h1>Booking / contact</h1>
+            <p>Send us your event details and we will comtact you.</p>
+        </section>
+
+
+        <section class="form-section">
+            <form onsubmit="return validateForm()">
+                <h2>Booking Enquiry Form</h2>
+
+                <lable for="name">Full Name</lable>
+                <input type="text" id="name" placeholder="Enter your full name please">
+
+                <lable for="email">Email Address</lable>
+                <input type="email" id="email" placeholder="enter your email address">
+
+                <lable for="phone">Phone Number</lable>
+                <input type="text" id="phone" placeholder="Enter your phone number please">
+
+                <lable for="eventType">Event Type</lable>
+                <selcet id="eventType">
+                    <option value="">select event type</option>
+                    <option>Wedding</option>
+                    <option>Birthday Party</option>
+                    <option>Corporate Event</option>
+                    <option>School Event</option>
+                    <option>Family Gathering</option>
+                </selcet>
+
+                <lable for="date">Event Date</lable>
+                <input type="date" id="date">
+
+                <lable for="guest">Number of Guests</lable>
+                <input type="number" id="guests" placeholder="enter the numner of your guests">
+
+                <lable for="message">Message</lable>
+                <textarea id="message" placeholder="Write your message or special requirement please"></textarea>
+
+                <button type="submit">Submit Booking</button>
+            </form>
+        </section>
+
+
+        <section class="contact-details">
+            <h2>Contact Details</h2>
+            <p><i class="fas fa-envolop"></i>info@SunRiseCatering.com</p>
+            <p><i class="fas fa-phone"></i>01234 567890</p>
+            <p><i class="fas fa-location-dot"></i>Edinburgh, scotland</p>
+        </section>
+
+
+        <footer>
+            <div class="social-icons">
+    <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+      <i class="fa-brands fa-facebook-f"></i>
+    </a>
+
+    <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <a href="https://www.x.com" target="_blank" aria-label="X">
+      <i class="fa-brands fa-x-twitter"></i>
+    </a>
+
+    <a href="https://www.youtube.com" target="_blank" aria-label="YouTube">
+      <i class="fa-brands fa-youtube"></i>
+    </a>
+  </div>
+
+        <p>Edinburgh, Scotland | Email: info@SunRiseCatering.com</p>
+        <p>&copy; 2026 SunRise Catering.All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
