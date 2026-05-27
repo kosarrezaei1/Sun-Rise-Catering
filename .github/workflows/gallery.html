@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SunRise Catering | Gallery</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+  <div class="top-header">
+    <a href="index.html">
+      <img src="images/logo.png" alt="SunRise Catering Logo" class="logo">
+    </a>
+
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  </div>
+
+  <nav id="navMenu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html" class="active">Gallery</a>
+    <a href="booking.html" class="book-btn">Booking</a>
+    <a href="location.html">Location</a>
+  </nav>
+</header>
+
+<section class="page-banner">
+  <h1>Gallery</h1>
+  <p>View examples of our food, events and catering presentation.</p>
+</section>
+
+<section class="slider-section">
+  <h2>Featured Gallery</h2>
+
+  <div class="slider-box">
+    <img id="sliderImage" src="images/food5.jpg" alt="Catering gallery image">
+
+    <div class="slider-buttons">
+      <button type="button" id="prevBtn">Previous</button>
+      <button type="button" id="nextBtn">Next</button>
+    </div>
+  </div>
+</section>
+
+<section class="gallery-grid">
+  <img src="images/food5.jpg" alt="Catering food display">
+  <img src="images/food6.jpg" alt="Event food table">
+  <img src="images/food7.jpg" alt="Party catering setup">
+  <img src="images/food8.jpg" alt="Wedding catering display">
+  <img src="images/food9.jpg" alt="Fresh food selection">
+  <img src="images/food10.jpg" alt="Corporate catering setup">
+</section>
+
+<footer>
+  <div class="social-icons">
+    <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+      <i class="fa-brands fa-facebook-f"></i>
+    </a>
+
+    <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <a href="https://www.x.com" target="_blank" aria-label="X">
+      <i class="fa-brands fa-x-twitter"></i>
+    </a>
+
+    <a href="https://www.youtube.com" target="_blank" aria-label="YouTube">
+      <i class="fa-brands fa-youtube"></i>
+    </a>
+  </div>
+
+  <p>Edinburgh, Scotland | Email: info@SunRiseCatering.com</p>
+  <p>&copy; 2026 SunRise Catering. All rights reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
